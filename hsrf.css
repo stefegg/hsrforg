@@ -1,0 +1,52 @@
+
+.topnav {
+  background-color: black;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: red;
+}
+
+.botnav {
+  background-color: white;
+  overflow: auto;
+  width: 100%;
+}
+
+.botnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.botnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.botnav a.active {
+  background-color: black;
+  color: red;
+}
