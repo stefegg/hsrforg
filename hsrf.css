@@ -1,30 +1,77 @@
-
-.topnav {
-  background-color: black;
-  overflow: auto;
-  position: fixed;
-  top: 0;
-  width: 100%;
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.nav {
+  font-size: 11px;
+  letter-spacing: 4px;
+  opacity: 0.8;
+  background-color: black
 }
 
-.topnav a {
+.nav-item a {
   float: left;
   color: red;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  color: #d5d5d5;
 }
 
-.topnav a:hover {
-  background-color: red;
+.nav-item a:hover {
   color: black;
+  color: #fff;
 }
 
-.topnav a.active {
-  background-color: white;
+.nav-item a.active {
   color: red;
 }
+
+.content {
+  width: 80%;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: auto;
+  display: block;
+}
+
+.co-1  {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.co-2 {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.co-3  {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.co-4 {
+  width: 50%;
+  border: 1px solid black;
+}
+
+[class*="co-"] {
+  overflow: auto;
+  padding: 10px;
+  float: left;
+}
+
+.carousel-inner img {
+   width: 100%;
+   margin: auto;
+   filter: grayscale(90%);
+ }
+ .carousel-caption h3 {
+     color: #fff !important;
+ }
+ @media (max-width: 600px) {
+   .carousel-caption {
+     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+   }
+ }
 
 .botnav {
   background-color: white;
