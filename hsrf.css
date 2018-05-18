@@ -97,3 +97,14 @@
   background-color: black;
   color: red;
 }
+#aboutv {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid;
+  overflow: auto;
+}
+#allanv {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid;
+  overflow: auto;
