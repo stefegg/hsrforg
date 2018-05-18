@@ -34,23 +34,22 @@
 }
 
 .co-1  {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
+
 }
 
 .co-2 {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
+  border: 1px solid black
 }
 
 .co-3  {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
+
 }
 
 .co-4 {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
 }
 
 [class*="co-"] {
