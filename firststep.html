@@ -25,7 +25,24 @@
     </ul>
     </div>
 
-
+    <div class=" ">
+      <form action="/action_page.php">
+        <label id="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label id="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="amount">Amount</label>
+        <select id="donate-amount" name="donate-amount">
+          <option value="1000000">1000000 $</option>
+          <option value="100000">100000 $</option>
+          <option value="10000">10000 $</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <button id="pay-btn" type="submit">
+      </form>
+      <p id="display-result"></p>
+    </div>
 
     <div class="botnav">
       <ul class="nav justify-content-center">
@@ -43,3 +60,6 @@
       </li>
     </ul>
     </div>
+
+    <script src="assigment5.js" charset="utf-8"></script>
+</body>
