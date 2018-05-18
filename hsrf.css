@@ -34,23 +34,21 @@
 }
 
 .co-1  {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
+
 }
 
 .co-2 {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
 }
 
 .co-3  {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
+
 }
 
 .co-4 {
-  width: 50%;
-  border: 1px solid black;
+  width: 49%;
 }
 
 [class*="co-"] {
@@ -73,27 +71,18 @@
    }
  }
 
-.botnav {
-  background-color: white;
+
+#aboutv {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid;
   overflow: auto;
-  width: 100%;
+  padding: 5px auto;
 }
-
-.botnav a {
-  float: left;
-  color: red;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.botnav a:hover {
-  background-color: red;
-  color: black;
-}
-
-.botnav a.active {
-  background-color: black;
-  color: red;
+#allanv {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid;
+  overflow: auto;
+  padding: 5px auto;
 }
