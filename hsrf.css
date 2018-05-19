@@ -86,3 +86,12 @@
   overflow: auto;
   padding: 5px auto;
 }
+
+.donatebox {
+  width:80%;
+  border: 5px solid;
+  overflow: auto;
+  padding: 25px auto;
+  margin: 5px auto;
+  text-align: center;
+}

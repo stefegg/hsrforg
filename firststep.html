@@ -25,28 +25,28 @@
     </ul>
     </div>
     <h1>Donate Now!</h1>
-    <div>Please fill out the below form to donate to HSRF. Your funds will immediately go to fight human suffering on a global scale. Please select an appropriate amount below. Please also be so kind as to provide HSRF with your Full Name, Address, Birthdate, and Social Security Number. We need this information because we have to know it, it will help us help you suffer less. The organization will provide you with a special thank you message, depending on the amount you have chosen. Please consider whether or not you enjoy human suffering before you decide which amount is right for you. Giving anything less than the maximum amount means you are garbage. Thank you!</div>
-    <div class=" ">
+    <div><p>Please fill out the below form to donate to HSRF. Your funds will immediately go to fight human suffering on a global scale. Please select an appropriate amount below. Please also be so kind as to provide HSRF with your Full Name, Address, Birthdate, and Social Security Number. We need this information because we have to know it, it will help us help you suffer less. You may also include a personal note from yourself with your donation. By law HSRF is required to inform you that these notes will not be read.</p><p>The organization will provide you with a special thank you message, depending on the amount you have chosen. Please consider whether or not you enjoy human suffering before you decide which amount is right for you. Giving anything less than the maximum amount means you are garbage. Thank you!</p></div>
+    <div class="donatebox">
       <form action="/action_page.php">
-        <label id="fname">First Name</label>
+        <p><label id="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label id="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label id="address">Address</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."></p>
+        <p><label id="address">Address</label>
         <input type="text" id="address" name="address" placeholder="Your full address..">
         <label id="birthdate">Birthdate</label>
-        <input type="text" id="birthdate" name="birthdate" placeholder="Your full birthdate..">
-        <label id="socialsecurity">Social Security Number</label>
-        <input type="text" id="socialsecurity" name="socialsecurity" placeholder="Your social security number...">
-        <label for="amount">Amount</label>
+        <input type="text" id="birthdate" name="birthdate" placeholder="Your full birthdate.."></p>
+        <p><label id="socialsecurity">Social Security Number</label>
+        <input type="text" id="socialsecurity" name="socialsecurity" placeholder="Your social security number..."></p>
+        <p><label for="amount">Amount</label>
         <select id="donate-amount" name="donate-amount">
           <option value="1000000">1000000 $</option>
           <option value="100000">100000 $</option>
           <option value="10000">10000 $</option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-        <button id="pay-btn" type="submit">
+        </select></p>
+        <label for="subject">Note</label>
+        <textarea id="subject" name="subject" placeholder="Include a note with your donation..." style="height:10%"></textarea>
+        <button id="pay-btn" type="submit">Submit</button>
       </form>
       <p id="display-result"></p>
     </div>
