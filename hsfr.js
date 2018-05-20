@@ -1,3 +1,15 @@
+//responsive nav
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navbar-collapse") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar-collapse";
+    }
+}
+
+
+
 $("#pay-btn").click(function(){
 var donation = $("#donate-amount").val();
 if (donation == 1000000) {
