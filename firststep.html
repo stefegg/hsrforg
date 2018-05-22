@@ -8,22 +8,34 @@
     <title>About HSRF</title>
   </head>
   <body>
-    <div class="topnav">
-      <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="active" href="firststep.html">Donate NOW</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#ededed;">
+      <p class="navbar-brnd"> The Human Suffering Relief Foundation </p>
+      <div class="navbar-collapse" id="myTopnav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="firststep.html">Donate Now</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"> Events </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"> Action </a>
+            </div>
+          </li>
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
     </div>
+  </nav>
     <h1 style="text-align:center;">Donate Now!</h1>
     <div class="donatetalk"><p>Please fill out the below form to donate to HSRF. Your funds will immediately go to fight human suffering on a global scale. Please select an appropriate amount below. Please also be so kind as to provide HSRF with your Full Name, Address, Birthdate, and Social Security Number. We need this information because we have to know it, it will help us help you suffer less. You may also include a personal note from yourself with your donation. By law HSRF is required to inform you that these notes will not be read.</p><p>The organization will provide you with a special thank you message, depending on the amount you have chosen. Please consider whether or not you enjoy human suffering before you decide which amount is right for you. Giving anything less than the maximum amount means you are garbage. Thank you!</p></div>
     <div class="donatebox">
@@ -51,20 +63,19 @@
     </div>
 
     <div class="botnav">
-      <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="active" href="firststep.html">Donate NOW</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
+      <nav class="navbar justify-content-center navbar-expand-lg navbar-light" style="background-color:#ededed;">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="firststep.html">Donate Now</a>
+          </li>
+        </ul>
+    </nav>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="hsfr.js" charset="utf-8"></script>
