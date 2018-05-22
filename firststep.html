@@ -2,23 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" href="hsrf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alike|Fira+Sans+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-    <meta charset="utf-8">
-    <title>About HSRF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donate Now</title>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#ededed;">
       <p class="navbar-brnd"> The Human Suffering Relief Foundation </p>
       <div class="navbar-collapse" id="myTopnav">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About Us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="firststep.html">Donate Now</a>
           </li>
           <li class="nav-item dropdown">
@@ -35,11 +36,17 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i></a>
     </div>
-  </nav>
-    <h1 style="text-align:center;">Donate Now!</h1>
-    <div class="donatetalk"><p>Please fill out the below form to donate to HSRF. Your funds will immediately go to fight human suffering on a global scale. Please select an appropriate amount below. Please also be so kind as to provide HSRF with your Full Name, Address, Birthdate, and Social Security Number. We need this information because we have to know it, it will help us help you suffer less. You may also include a personal note from yourself with your donation. By law HSRF is required to inform you that these notes will not be read.</p><p>The organization will provide you with a special thank you message, depending on the amount you have chosen. Please consider whether or not you enjoy human suffering before you decide which amount is right for you. Giving anything less than the maximum amount means you are garbage. Thank you!</p></div>
-    <div class="donatebox">
+    </nav>
 
+<div class="content-3">
+    <h1> Donate Now! </h1>
+    <div class="donatetalk">
+      <p>Please fill out the below form to donate to HSRF. Your funds will immediately go to fight human suffering on a global scale. Please select an appropriate amount below. Please also be so kind as to provide HSRF with your Full Name, Address, Birthdate, and Social Security Number. We need this information because we have to know it, it will help us help you suffer less. You may also include a personal note from yourself with your donation. By law HSRF is required to inform you that these notes will not be read.</p>
+      <p>The organization will provide you with a special thank you message, depending on the amount you have chosen. Please consider whether or not you enjoy human suffering before you decide which amount is right for you. Giving anything less than the maximum amount means you are garbage. Thank you!</p>
+    </div>
+
+    <div class="donatebox">
+      <form action="/action_page.php">
         <p><label id="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <label id="lname">Last Name</label>
@@ -59,24 +66,31 @@
         <label for="subject">Note</label>
         <textarea id="subject" name="subject" placeholder="Include a note with your donation..." style="height:10%"></textarea>
         <button id="pay-btn" type="submit">Submit</button>
+      </form>
       <p id="display-result"></p>
     </div>
+  </div>
+
 
     <div class="botnav">
       <nav class="navbar justify-content-center navbar-expand-lg navbar-light" style="background-color:#ededed;">
       <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About Us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="firststep.html">Donate Now</a>
           </li>
         </ul>
     </nav>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="hsfr.js" charset="utf-8"></script>
+
+    <script src="hsfr.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
+</html>
