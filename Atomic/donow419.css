@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#bigone {
+  margin: 0 auto;
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 40%;
+  overflow: auto;
+}
+#left {
+
+}
+#links {
+  float: right;
+  list-style: none;
+}
+#links li {
+  float: left;
+  margin: 0 20px;
+  overflow: auto;
+}
+#nav {
+  width: 99%;
+  overflow: auto;
+  background-color: teal;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+#logo {
+  float: left;
+}
+@media (max-width: 925px) {
+  .bigone div {
+    float:left;
+    width: 49%;
+    border: 2px solid red;}
+  #left div {
+      width: 45%;
+      text-align: center;
+      float: right;
+      margin: 0 auto;
+    }
+    #right div{
+      width: 40%;
+      float: left;
+  }
+}

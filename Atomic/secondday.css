@@ -1,0 +1,22 @@
+body {
+  background-color: red;
+}
+div {
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+.event {color: pink;
+background-color: yellow;
+text-align: left;
+}
+#events {
+background-color: white;
+  color: green;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 6px
+  }
+.bigtext {
+  font-size: 50px
+}

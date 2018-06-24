@@ -1,0 +1,122 @@
+body {
+  color: white;
+  background-color: blue;
+  font-family: arial;
+}
+
+.topnav {
+  background-color: black;
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: red;
+}
+
+.footer {
+  color: pink;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  float: left;
+
+}
+
+#mepic {
+  margin: 25px auto;
+  overflow: auto;
+  align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#mydiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-bottom: 15px;
+  background-color: darkgreen;
+  overflow: auto;
+}
+
+#maindiv {
+  width: 80%;
+  background-color: black;
+  color: white;
+  border: 20px solid black;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 25px;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  overflow: auto;
+  color: purple;
+  background-color: yellow;
+  border: 5px solid black;
+  overflow: auto;
+}
+
+.pictures div {
+  background-color: red;
+  margin: 3px;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.pictures img {
+  width: 99%;
+  height: 250px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  .pictures div {
+    float: left;
+    width: 49%;
+  }
+}
+
+@media (min-width: 992px) {
+  .pictures div {
+    float: left;
+    width: 32%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pictures div {
+    float: left;
+    width: 24%;
+  }
+}

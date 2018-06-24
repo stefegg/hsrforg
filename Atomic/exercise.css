@@ -1,0 +1,30 @@
+body {
+  margin-bottom: 20px;
+  background-color: black;
+}
+.class {
+  color: pink;
+background-color: yellow;
+text-align: center;
+border: 2px
+
+}
+#id {
+  color: red;
+  text-align:center;
+  border: 2px solid #0a0a0a;
+  display: block;
+}
+ul {
+  margin: 10px
+}
+ul li{
+  color: green;
+  padding: 10px
+}
+li:first-child {
+    background-color: yellow;
+}
+p {
+  color: yellow;
+}

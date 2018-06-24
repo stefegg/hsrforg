@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#bigone {
+  margin: 0 auto;
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 80%;
+  overflow: auto;
+}
+#left {
+  width: 45%;
+  text-align: center;
+  float: left;
+  margin: 0 0 0 20px;
+}
+#right {
+  width: 50%;
+  float: right;
+}
+#inside
+{
+  width: 50%;
+  float: right;
+  height: auto;
+}
+#links {
+  float: right;
+  list-style: none;
+}
+#links li {
+  float: left;
+  margin: 0 20px;
+  overflow: auto;
+}
+#nav {
+  width: 99%;
+  overflow: auto;
+  background-color: teal;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+#logo {
+  float: left;
+}
